@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anillos">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="WEDDING TIME"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:textColor="#CC4A16"
+            android:fontFamily="casual"
+            android:id="@+id/WEDDING"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="Mariha"
+            android:textSize="35dp"
+            android:textColor="#8A541C"
+            android:id="@+id/Mariha"
+            android:textAlignment="center"
+            android:rotation="-30"
+            android:fontFamily="cursive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="@string/and"
+            android:textSize="35dp"
+            android:textAlignment="center"
+            android:id="@+id/and"
+            android:fontFamily="casual"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="Miguel"
+            android:textSize="35dp"
+            android:textColor="#8A541C"
+            android:id="@+id/Miguel"
+            android:textAlignment="center"
+            android:rotation="35"
+            android:fontFamily="cursive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="1"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="All your friends and family"
+            android:textSize="35dp"
+            android:textAlignment="center"
+            android:gravity="bottom"
+            android:fontFamily="cursive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/friends" />
+
+        <TextView
+            android:text="wish you to be very happy on this journey"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:fontFamily="cursive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/journey" />
+
+        <Button
+            android:text="Click Here to view photos!!!!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/photoButton"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#EFEBE9" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"></LinearLayout>
+
+</LinearLayout>
